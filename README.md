@@ -1,6 +1,6 @@
 # Implementing PageRank: Math 60C Final Project
 
-Jonathan Becker, Josefine Bystrom, and Anne McDonald
+Jonathan Becker, Josefine Bystrom, Emily Fernandez, and Anne McDonald
 
 For our group's final project for Mathematics 60C (Linear Algebra with Computing), we will be building a simple version of early Google from scratch. To achieve this, we will build PageRank in Python, using the Flask framework to allow for our version of PageRank to power an HTML/CSS/JavaScript Front-End UI.
 
