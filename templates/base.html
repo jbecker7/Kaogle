@@ -3,11 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Linear Google Clone</title>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css')}}">
-	<link rel="stylesheet" type="text/js" href="{{ url_for('static', filename='js/main.js')}}">
-	{% block head %}{% endblock %}
+	<script src="{{url_for('static', filename='js/main.js')}}"></script>
+	<link rel="icon" href="static/assets/favicon.jpg">
+	<script src="https://kit.fontawesome.com/19d80c34b2.js" crossorigin="anonymous"></script>
 </head>
-<body>
+	{% block head %}{% endblock %}
+
+
+
 	{% block body %}{% endblock %}
 </body>
 </html>
+
+ <!-- rel="stylesheet" type="text/js" href -->
+
+<!--  {{ url_for('static', filename='js/main.js')}}"> -->
+
+<!-- <script defer src="static/js/main.js"></script> -->
