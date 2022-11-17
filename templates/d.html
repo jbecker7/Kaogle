@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<h1>
+	<strong>Sakura Coke Bottle (2019)</strong>
+</h1>
+
+<h2>This limited edition Coke bottle came out as part of a limited edition set of bottles to promote Japan's 4 seasons!</h2>
+
+
+<br>
+
+<img src="{{ url_for('static', filename='assets/j1.jpeg' )}}" width="500" height="600">
+<img src="{{ url_for('static', filename='assets/j2.jpg' )}}" width="500" height="600">
+
+</h3>
+
+
+
+
+<h2>You might also like:</h2>
+
+
+
+<ol>
+<li><h3>Like with the Sakura Coke Bottle, the <a href="{{ url_for('a') }}">Taipei Bottle</a>, <a href="{{ url_for('c') }}">Philadelphia Bottle</a>, and <a href="{{ url_for('e') }}">Disney Bottle</a> also are associated with popular tourist areas. </h3>
+
+</ol>
+
+
+{% endblock %}
+
+
+</html>

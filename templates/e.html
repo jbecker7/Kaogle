@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<h1>
+	<strong>Disney Star Wars Galaxy's Edge Coke Bottle (2019)</strong>
+</h1>
+
+<h2>This limited edition Coke bottle came out as an exclusive variation available in Star Wars Galaxy's Edge at Disneyland and Disneyworld!</h2>
+
+
+<br>
+
+<img src="{{ url_for('static', filename='assets/d1.jpg' )}}" width="500" height="600">
+<img src="{{ url_for('static', filename='assets/d2.jpeg' )}}" width="500" height="600">
+
+</h3>
+
+
+
+
+<h2>You might also like:</h2>
+
+
+
+<ol>
+<li><h3>Like with the Disney Coke Bottle, the <a href="{{ url_for('c') }}">Philadelphia Bottle</a>, and <a href="{{ url_for('d') }}">Sakura Bottle</a> also are associated with popular tourist areas. </h3>
+
+<li><h3>The <a href="{{ url_for('b') }}">Universal Bottle </a> also comes from a theme park.</h3>
+
+</ol>
+
+
+{% endblock %}
+
+
+</html>

@@ -5,6 +5,9 @@
 {% endblock %}
 
 {% block body %}
+
+
+
 <header>
 	<nav class="navbar">
 		<ul>
@@ -25,26 +28,21 @@
 
 </header>
 
-<section class="content-section">
-	<div class="content-wrapper">
-		<img class="logo-img" src="static/assets/logo.jpg" alt="Google Logo Image">
-		<div class="search-bar">
-			<i class="fa-solid fa-magnifying-glass"></i>
-			<input class="search-input" type="text">
-			<i class="fa-solid fa-keyboard"></i>
-			<i class="fa-solid fa-microphone"></i>
-		</div>
-		<div class="search-btns">
-			<form action="/search" method="post">
-  				<button class="google-search-btn" name="forwardBtn" type="submit">Kaogle</button>
-			</form>
+<div>
 
-		</div>
-		<div class="language">
-			<p>Yayyy this looks like Google</p>
 
-	</div>
-</section>
+<ol>
+		<li value="1"><a href="{{ url_for('b') }}">Universal Bottle</a>
+		<li value="2"><a href="{{ url_for('c') }}">Philadelphia Bottle</a></li>
+		<li value="3"><a href="{{ url_for('d') }}">Sakura Bottle</a></li>
+		<li value="4"><a href="{{ url_for('a') }}">Taipei Bottle</a></li>
+		<li value="5"><a href="{{ url_for('e') }}">Disney Bottle</a></li>
+
+</ol>
+
+</div>
+<br>
+<br>
 
 <footer>
 	<div class="footer-content upper-footer">

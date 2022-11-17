@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<h1>
+	<strong>Taipei Limited Edition Coke Bottle (2018)</strong>
+</h1>
+
+<h2>This limited edition Coke bottle came out to celebrate the 50th anniversary of Coke in Taiwan!</h2>
+
+<img src="{{ url_for('static', filename='assets/t1.jpg' )}}" width="500" height="600">
+<img src="{{ url_for('static', filename='assets/t2.jpg' )}}" width="500" height="600">
+<img src="{{ url_for('static', filename='assets/t3.png' )}}" width="500" height="600">
+
+
+
+<h2>You might also like:</h2>
+<ol>
+<li><h3>The <a href="{{ url_for('b') }}">Universal Bottle</a> and <a href="{{ url_for('d') }}">Sakura Bottle</a> are also from Asia. </h3>
+
+<li><h3>The <a href="{{ url_for('c') }}">Philadelphia Bottle</a> is not from Asia but also features a tourist destination. </h3>
+
+</ol>
+
+
+{% endblock %}
+
+
+</html>

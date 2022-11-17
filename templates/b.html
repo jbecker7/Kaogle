@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<h1>
+	<strong>Super Nintendo World Coke Bottle (2022)</strong>
+</h1>
+
+<h2>This limited edition Coke bottle came out to celebrate the first anniversary of Super Nintendo World in Japan!</h2>
+
+<h3> Here's variation 1 of the bottle:
+
+<br>
+
+<img src="{{ url_for('static', filename='assets/n1.jpg' )}}" width="500" height="600">
+<img src="{{ url_for('static', filename='assets/n2.jpg' )}}" width="500" height="600">
+</h3>
+
+
+<h3> Here's variation 2:
+
+<br>
+
+<img src="{{ url_for('static', filename='assets/n3.jpg' )}}" width="500" height="600">
+<img src="{{ url_for('static', filename='assets/n4.jpg' )}}" width="500" height="600">
+
+
+</h3>
+
+
+<h2>You might also like:</h2>
+
+
+
+<ol>
+<li><h3>The <a href="{{ url_for('a') }}">Taipei Bottle</a> and <a href="{{ url_for('d') }}">Sakura Bottle</a> are also from Asia. </h3>
+
+</ol>
+
+
+{% endblock %}
+
+
+</html>

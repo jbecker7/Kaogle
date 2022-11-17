@@ -9,7 +9,33 @@ def index():
 if __name__=="__main__":
     app.run(debug=True)
 
-@app.route('/search')
+@app.route("/a")
+def a():
+        return render_template("a.html")
+
+@app.route("/b")
+def b():
+        return render_template("b.html")
+
+@app.route("/c")
+def c():
+        return render_template("c.html")
+
+
+@app.route("/d")
+def d():
+        return render_template("d.html")
+
+@app.route("/e")
+def e():
+        return render_template("e.html")
+
+@app.route("/search", methods=["POST"])
+def move_forward():
+    forward_message = "Moving Forward..."
+    return render_template("search.html", forward_message=forward_message)
+
+
 def win(matrix, m, o):
     k = 0
     for i in range(0, n):
