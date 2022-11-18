@@ -10,6 +10,7 @@ We first implemented our simplified version of PageRank in Python and from there
 
 
 Kaogle's Home Page:
+
 ![](https://i.imgur.com/v0VVdBn.jpg)
 
 
