@@ -16,14 +16,20 @@ Kaogle's Home Page:
 
 References:
 
-“Page Rank Algorithm and Implementation.” GeeksforGeeks, 6 Sept. 2022, https://www.geeksforgeeks.org/page-rank-algorithm-implementation/. 
+Machado, Jonathan. “Linear Algebra Application: Google PageRank Algorithm.” Department of Mathematics and Statistics, University of North Carolina at Greensboro. 2017, https://mathstats.uncg.edu/sites/yasaki/publications/machado-google-pagerank-linear-algebra-project.pdf. Accessed 21 Nov. 2022.
 
-“PageRank.” Scikit, https://scikit-network.readthedocs.io/en/latest/tutorials/ranking/pagerank.html. 
+Page, Lawrence, et al. “The PageRank Citation Ranking: Bringing Order to the Web. - Stanford InfoLab Publication Server.” Stanford.edu, 11 Nov. 1999, ilpubs.stanford.edu:8090/422/, http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf. Accessed 21 Nov. 2022.
 
-Roberts, Eric. Google Page Rank Algorithm. https://web.stanford.edu/class/cs54n/handouts/24-GooglePageRankAlgorithm.pdf. 
+“Page Rank Algorithm and Implementation - GeeksforGeeks.” GeeksforGeeks, 30 Aug. 2017, www.geeksforgeeks.org/page-rank-algorithm-implementation/. Accessed 21 Nov. 2022.
 
-Verzhbitskaia, Zlata. “The Past, Present &amp; Future of Google PageRank.” Seo Software, 20 Oct. 2021, https://www.link-assistant.com/news/google-pagerank-algorithm.html. 
+“PageRank — Scikit-Network 0.28.0 Documentation.” Readthedocs.io, 2022, scikit-network.readthedocs.io/en/latest/tutorials/ranking/pagerank.html. Accessed 21 Nov. 2022.
 
-“What Is Pagerank? A Quick History Lesson - Dreamhost.” DreamHost Academy, 29 July 2021, https://www.dreamhost.com/academy/pagerank-history/#:~:text=PageRank%20was%20created%20way%20back,in%201998%20%E2%80%94%20with%20great%20success. 
+Roberts, Eric. The Google PageRank Algorithm. 2016. https://web.stanford.edu/class/cs54n/handouts/24-GooglePageRankAlgorithm.pdf. Accessed 21 Nov. 2022.
+
+“The History of PageRank and Iterative Searching Algorithms.” Cornell.edu, 2017, blogs.cornell.edu/info2040/2017/10/25/the-history-of-pagerank-and-iterative-searching-algorithms/. Accessed 21 Nov. 2022.
+
+“What Is PageRank? A Quick History Lesson - DreamHost.” DreamHost Academy, 28 Oct. 2020, www.dreamhost.com/academy/pagerank-history/#:~:text=PageRank%20was%20created%20way%20back,in%201998%20%E2%80%94%20with%20great%20success.. Accessed 21 Nov. 2022.
+
+Zlata Verzhbitskaia. “Google’s PageRank Algorithm: Explained and Tested.” Link-Assistant.com, 18 Oct. 2021, www.link-assistant.com/news/google-pagerank-algorithm.html. Accessed 21 Nov. 2022.
 
 
